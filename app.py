@@ -4,7 +4,7 @@ from PIL import Image
 import io
 import os
 
-API_URL = os.getenv("API_URL", "http://api:8000")
+API_URL = os.getenv("API_URL", "https://Sahii007-eurosat-classifier.hf.space")
 
 st.set_page_config(page_title="EuroSAT Classifier", page_icon="🛰️", layout="centered")
 st.title("🛰️ EuroSAT Land Use Classifier")
